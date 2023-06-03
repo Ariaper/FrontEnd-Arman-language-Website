@@ -68,3 +68,12 @@
 .card-title {
   font-size: 1rem;
 }
+
+.footer {
+  background-color: #3c3e3f;
+  color: white;
+}
+.tell-number:link,
+.tell-number:visited {
+  color: white;
+}

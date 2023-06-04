@@ -1,0 +1,82 @@
+/**************************/
+/* BELOW 1270px  */
+/**************************/
+
+@media (max-width: 80em) {
+  html {
+    font-size: 56.25%;
+  }
+}
+
+/**************************/
+/* BELOW 1154px */
+/**************************/
+
+@media (max-width: 72em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+/**************************/
+/* BELOW 1040px  */
+/**************************/
+
+@media (max-width: 65em) {
+  html {
+    font-size: 46.13%;
+  }
+}
+
+/**************************/
+/* BELOW 975px  */
+/**************************/
+@media (max-width: 61em) {
+  html {
+    font-size: 42.5%;
+  }
+}
+
+/**************************/
+/* BELOW 808px  */
+/**************************/
+
+@media (max-width: 51em) {
+}
+
+/**************************/
+/* BELOW 752px */
+/**************************/
+@media (max-width: 47em) {
+  html {
+    font-size: 31.25%;
+  }
+  .googlemap iframe {
+    width: 90%;
+    height: 100%;
+  }
+}
+
+/**************************/
+/* BELOW 573px */
+/**************************/
+@media (max-width: 36em) {
+  html {
+    font-size: 29.5%;
+  }
+  .googlemap iframe {
+    width: 70%;
+    height: 80%;
+  }
+  .card-maincontainer {
+    width: 60%;
+    gap: 1rem;
+  }
+}
+
+@media screen and (max-height: 450px) {
+  .googlemap iframe {
+    width: 90%;
+    height: 100%;
+  }
+}

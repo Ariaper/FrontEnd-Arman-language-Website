@@ -1,0 +1,30 @@
+.footer {
+  background-color: #3c3e3f;
+  color: white;
+}
+
+.footer-textinformation h6 {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.tell-number:link,
+.tell-number:visited {
+  color: white;
+}
+
+.footer-textinformation p {
+  font-size: 1.4rem;
+}
+.googlemap iframe {
+  width: 40rem;
+  height: 20.5rem;
+}
+
+.cp {
+  color: #afb1b4;
+}
+.cp a:link,
+.cp a:visited {
+  color: #afb1b4;
+}

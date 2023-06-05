@@ -1,0 +1,103 @@
+.home-container {
+  background-image: url(../../images/2.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 56rem;
+}
+.home-container h3 {
+  font-size: 2.6rem;
+  font-weight: 700;
+}
+
+.text-motto {
+  font-size: 2.4rem;
+  line-height: 1.5;
+  /* test */
+  color: #309fe6;
+  overflow: hidden;
+  text-align: center;
+}
+
+.second-home-container {
+  /* background-color: #1d3557; */
+  background-color: #eaebee;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-container {
+  border: 1px solid #eaebee;
+}
+
+.header-second-container {
+  padding-top: 2.4rem;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 20rem;
+  object-fit: cover;
+}
+
+.h4-second-header {
+  font-size: 2.2rem;
+  /* test 2 */
+  text-align: center;
+  color: #3c3e34;
+}
+
+.p-second-header {
+  font-size: 1.6rem;
+  /* test 2 */
+
+  text-align: center;
+  color: rgb(63, 131, 190);
+}
+
+.infotext-second-container {
+  color: #309fe6;
+  margin-top: 3.2rem;
+}
+.infotext-second-container p {
+  font-size: 1.4rem;
+}
+.quote-text svg {
+  width: 1.9rem;
+  height: 1.9rem;
+}
+.quote-text p {
+  font-size: 1.92rem;
+  /* test 3 */
+}
+
+.text-information p {
+  font-size: 1.6rem;
+}
+
+.text-information h3 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+}
+
+.card-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.blockquote-footer {
+  font-size: 1.4rem;
+}
+
+.fourth-home-container {
+  background-color: #309fe6;
+  font-family: "Acme", sans-serif;
+}
+
+.fourth-home-container p {
+  font-family: "Acme", sans-serif;
+  font-size: 2.4rem;
+}

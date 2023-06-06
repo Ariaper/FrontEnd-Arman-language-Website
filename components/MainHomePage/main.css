@@ -101,3 +101,13 @@
   font-family: "Acme", sans-serif;
   font-size: 2.4rem;
 }
+
+.col .card {
+  background: #eee;
+  /* transition: all 0.3s; */
+}
+.col .card:hover {
+  transform: scale(1.02);
+  background: #3b30cc;
+  color: #eee;
+}

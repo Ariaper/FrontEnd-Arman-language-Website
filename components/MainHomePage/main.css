@@ -104,10 +104,29 @@
 
 .col .card {
   background: #eee;
-  /* transition: all 0.3s; */
 }
 .col .card:hover {
   transform: scale(1.02);
-  background: #3b30cc;
-  color: #eee;
+  /* color: #eee; */
+  background: #c9d6ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e2e2e2,
+    #c9d6ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e2e2e2,
+    #c9d6ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border: 0;
+}
+
+.col .card:hover a {
+  color: dodgerblue;
+  background-color: #eee;
+  border: 1px solid dodgerblue;
+
+  font-weight: 700;
 }

@@ -24,8 +24,8 @@ crossorigin="anonymous"
         برنامه کلاسی Class program
       </h4>
       <p>شروع ترم از شنبه 23 اردیبهشت</p>
-      <img src="images/class1.jpg" alt="" class="rounded d-block w-100 pb-1 card-img-top img-fluid">
-      <img src="images/class2.jpg" alt="" class="rounded d-block w-100 card-img-top img-fluid">
+      <img src="images/ClassProgram/class1.jpg" alt="" class="rounded d-block w-100 pb-1 card-img-top img-fluid">
+      <img src="images/ClassProgram/class2.jpg" alt="" class="rounded d-block w-100 card-img-top img-fluid">
     </div>
 
   </div>

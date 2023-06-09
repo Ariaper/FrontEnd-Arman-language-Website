@@ -3,7 +3,7 @@
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  height: 56rem;
+  height: 90vh;
 }
 .home-container h3 {
   font-size: 2.6rem;
@@ -100,4 +100,33 @@
 .fourth-home-container p {
   font-family: "Acme", sans-serif;
   font-size: 2.4rem;
+}
+
+.col .card {
+  background: #eee;
+}
+.col .card:hover {
+  transform: scale(1.02);
+  /* color: #eee; */
+  background: #c9d6ff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #e2e2e2,
+    #c9d6ff
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #e2e2e2,
+    #c9d6ff
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  border: 0;
+}
+
+.col .card:hover a {
+  color: dodgerblue;
+  background-color: #eee;
+  border: 1px solid dodgerblue;
+
+  font-weight: 700;
 }

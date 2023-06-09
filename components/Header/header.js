@@ -39,12 +39,6 @@ crossorigin="anonymous"
       <li class="nav-item navbar-li-menu-items">
         <a class="nav-link" href="#">گالری تصاویر</a>
       </li>
-      <li
-        class="nav-item navbar-li-menu-items"
-        style="margin-right: 0.48rem"
-      >
-        <a class="nav-link" href="#">دیکشنری آنلاین</a>
-      </li>
     </ul>
     <div class="d-grid gap-2">
       <button

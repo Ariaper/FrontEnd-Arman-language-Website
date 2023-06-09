@@ -11,21 +11,21 @@ crossorigin="anonymous"
 <link rel="stylesheet" href="components/Classprogram/classProgram.css">
 <link rel="stylesheet" href="queries.css" />
 
-<div class="container mt-5">
+<div class="container mt-5 ">
   <div class=" row">
     <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
       <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="../index">صفحه اصلی</a></li>
+        <li class="breadcrumb-item"><a href="#">صفحه اصلی</a></li>
         <li class="breadcrumb-item active" aria-current="page">برنامه کلاسی</li>
       </ol>
     </nav>
-    <div class="col-md-8">
+    <div class="justify-content-center align-items-center col-md-8">
       <h4>
         برنامه کلاسی Class program
       </h4>
       <p>شروع ترم از شنبه 23 اردیبهشت</p>
-      <img src="images/class1.jpg" alt="" class="rounded d-block w-100">
-      <img src="images/class2.jpg" alt="" class="rounded d-block w-100">
+      <img src="images/class1.jpg" alt="" class="rounded d-block w-100 pb-1 card-img-top img-fluid">
+      <img src="images/class2.jpg" alt="" class="rounded d-block w-100 card-img-top img-fluid">
     </div>
 
   </div>

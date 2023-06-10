@@ -25,11 +25,107 @@
     />
 
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="components/PicGallery/gallery.css" />
     <link rel="stylesheet" href="queries.css" />
   </head>
   <body>
     <site-header></site-header>
-    <site-picgallery></site-picgallery>
+    <main class="container">
+      <h3 class="text-center pt-5 pb-4">
+        برای دیدن کامل تصاویر روی آن کلیک کنید!
+      </h3>
+      <div id="myModal" class="modal">
+        <span onclick="closeButtonSpan()" class="close">&times;</span>
+
+        <img class="modal-content" id="img01" src="" />
+
+        <!-- Modal Caption (Image Text) -->
+        <div id="caption"></div>
+      </div>
+
+      <div class="pictures-container container-fluid mt-1 mb-5">
+        <div class="imgdiv card shadow rounded">
+          <img
+            src="/images/Gallery/1.jpg"
+            alt="اردو اردیبهشت ماه | تاریخ 1402/02/14"
+            class="img img-fluid"
+            onclick="myFunction(this);"
+          />
+        </div>
+        <div class="imgdiv card shadow rounded">
+          <img
+            src="/images/Gallery/2.jpg"
+            alt="اردو اردیبهشت ماه | تاریخ 1402/02/14"
+            class="img img-fluid"
+            onclick="myFunction(this);"
+          />
+        </div>
+        <div class="imgdiv card shadow rounded">
+          <img
+            src="/images/Gallery/3.jpg"
+            alt="اردو اردیبهشت ماه | تاریخ 1402/02/14"
+            class="img img-fluid"
+            onclick="myFunction(this);"
+          />
+        </div>
+        <div class="imgdiv card shadow rounded">
+          <img
+            src="/images/Gallery/5.jpg"
+            alt="بحث آزاد پنج شنبه اردیبهشت ماه | تاریخ 1402/02/12            "
+            class="img img-fluid"
+            onclick="myFunction(this);"
+          />
+        </div>
+        <div class="imgdiv card shadow rounded">
+          <img
+            src="/images/Gallery/6.jpg"
+            alt="بحث آزاد پنج شنبه اردیبهشت ماه | تاریخ 1402/02/12"
+            class="img img-fluid"
+            onclick="myFunction(this);"
+          />
+        </div>
+        <div class="imgdiv card shadow rounded">
+          <img
+            src="/images/Gallery/7.jpg"
+            alt="بحث آزاد پنج شنبه اردیبهشت ماه | تاریخ 1402/02/12"
+            class="img img-fluid"
+            onclick="myFunction(this);"
+          />
+        </div>
+        <div class="imgdiv card shadow rounded">
+          <img
+            src="/images/Gallery/8.jpg"
+            alt="بحث آزاد پنج شنبه اردیبهشت ماه | تاریخ 1402/02/12"
+            class="img img-fluid"
+            onclick="myFunction(this);"
+          />
+        </div>
+        <div class="imgdiv card shadow rounded">
+          <img
+            src="/images/Gallery/9.jpg"
+            alt="بحث آزاد پنج شنبه اردیبهشت ماه | تاریخ 1402/02/12"
+            class="img img-fluid"
+            onclick="myFunction(this);"
+          />
+        </div>
+        <div class="imgdiv card shadow rounded">
+          <img
+            src="/images/Gallery/10.jpg"
+            alt="بحث آزاد پنج شنبه اردیبهشت ماه | تاریخ 1402/02/12"
+            class="img img-fluid"
+            onclick="myFunction(this);"
+          />
+        </div>
+        <div class="imgdiv card shadow rounded">
+          <img
+            src="/images/Gallery/11.jpg"
+            alt="بحث آزاد پنج شنبه اردیبهشت ماه | تاریخ 1402/02/12"
+            class="img img-fluid"
+            onclick="myFunction(this);"
+          />
+        </div>
+      </div>
+    </main>
     <!-- <site-footer></site-footer> -->
     <script
       src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
@@ -42,5 +138,6 @@
       crossorigin="anonymous"
     ></script>
     <script type="module" src="app.js"></script>
+    <script src="components/PicGallery/gallery.js"></script>
   </body>
 </html>

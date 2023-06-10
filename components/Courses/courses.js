@@ -31,7 +31,7 @@ style="max-width: 84rem"
     />
     <div class="card-body">
       <h5 class="card-title">دوره مناسب برای کودکان</h5>
-      <a href="#" class="btn btn-end btn-primary mt-3 btn-lg"
+      <a href="kid.html" class="btn btn-end btn-primary mt-3 btn-lg"
         >اطلاعات بیشتر</a
       >
     </div>
@@ -46,7 +46,7 @@ style="max-width: 84rem"
     />
     <div class="card-body">
       <h5 class="card-title">دوره مناسب برای نوجوانان</h5>
-      <a href="#" class="btn btn-primary mt-3 btn-lg"
+      <a href="teenager.html" class="btn btn-primary mt-3 btn-lg"
         >اطلاعات بیشتر</a
       >
     </div>
@@ -61,7 +61,7 @@ style="max-width: 84rem"
     />
     <div class="card-body">
       <h5 class="card-title">دوره مناسب برای بزرگسالان</h5>
-      <a href="#" class="btn btn-primary mt-3 btn-lg"
+      <a href="adult.html" class="btn btn-primary mt-3 btn-lg"
         >اطلاعات بیشتر</a
       >
     </div>

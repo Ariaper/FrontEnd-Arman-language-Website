@@ -28,16 +28,16 @@ crossorigin="anonymous"
         <a class="nav-link border-bottom-1" href="#">صفحه اصلی</a>
       </li>
       <li class="nav-item navbar-li-menu-items">
-        <a class="nav-link" href="#">ترم های آموزشی</a>
+        <a class="nav-link" href="Courses.html">ترم های آموزشی</a>
       </li>
       <li class="nav-item navbar-li-menu-items">
-        <a class="nav-link" href="#"> برنامه کلاس ها </a>
+        <a class="nav-link" href="classProgram.html"> برنامه کلاس ها </a>
       </li>
       <li class="nav-item navbar-li-menu-items">
         <a class="nav-link" href="#">نمرات</a>
       </li>
       <li class="nav-item navbar-li-menu-items">
-        <a class="nav-link" href="#">گالری تصاویر</a>
+        <a class="nav-link" href="#PicGallery.html">گالری تصاویر</a>
       </li>
     </ul>
     <div class="d-grid gap-2">

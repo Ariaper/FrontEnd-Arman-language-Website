@@ -67,6 +67,15 @@
   html {
     font-size: 35%;
   }
+  .close {
+    top: 10%;
+    right: 2%;
+    color: darkblue;
+    background-color: rgb(255, 255, 255);
+    font-size: 2rem;
+    padding: 0 2rem;
+  }
+
   .googlemap iframe {
     width: 70%;
     height: 80%;

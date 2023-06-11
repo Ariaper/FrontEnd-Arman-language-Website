@@ -102,6 +102,7 @@
   font-size: 4rem;
   font-weight: bold;
   transition: 0.3s;
+  z-index: 99;
 }
 
 .close:hover,

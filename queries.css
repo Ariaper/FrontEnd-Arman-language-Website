@@ -67,6 +67,10 @@
   html {
     font-size: 35%;
   }
+  .home-container {
+    height: 50vh;
+  }
+
   .close {
     top: 10%;
     right: 2%;
@@ -82,7 +86,7 @@
   }
 
   .card-maincontainer {
-    width: 60%;
+    width: 65%;
     gap: 1rem;
   }
 }

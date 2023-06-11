@@ -49,7 +49,7 @@
 /**************************/
 @media (max-width: 47em) {
   html {
-    font-size: 31.25%;
+    font-size: 37.25%;
   }
   .googlemap iframe {
     width: 90%;
@@ -62,7 +62,7 @@
 /**************************/
 @media (max-width: 36em) {
   html {
-    font-size: 29.5%;
+    font-size: 35%;
   }
   .googlemap iframe {
     width: 70%;

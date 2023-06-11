@@ -14,3 +14,59 @@
 .navbar-li-menu-items {
   margin-right: 0.48rem;
 }
+
+/* The sidepanel menu */
+.sidepanel {
+  height: 100vh; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: rgba(10, 37, 95, 0.952); /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 6rem; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+/* The sidepanel links */
+.sidepanel a {
+  padding: 0.8rem 0.8rem 0.8rem 3.2rem;
+  text-decoration: none;
+  font-size: 2.4rem;
+  color: #e1e29f;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidepanel .closebtn {
+  color: #fff;
+  background-color: rgb(150, 20, 20);
+  border-radius: 1px solid #fff;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  margin-left: 5rem;
+  margin-bottom: 4rem;
+}
+
+/* Style the button that is used to open the sidepanel */
+.openbtn {
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 1rem 1.5rem;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}

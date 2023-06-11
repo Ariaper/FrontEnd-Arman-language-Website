@@ -18,14 +18,28 @@ crossorigin="anonymous"
   style="margin-right: 1.6rem; margin-left: 6.4rem"
 >
   <div class="navbar-header">
-    <a class="navbar-brand navbar-text-brand armanbrand" href="#"
+    <a class="navbar-brand navbar-text-brand armanbrand" href="index.html"
       >آکادمی زبان آرمان</a
     >
   </div>
+
+  <div class="menu-nav-mobile">
+      <div id="mySidepanel" class="sidepanel">
+      <a href="javascript:void(0)" class="closebtn">&times;</a>
+      <a href="index.html">صفحه اصلی</a>
+      <a href="Courses.html">ترم های آموزشی</a>
+      <a href="classProgram.html">برنامه کلاس ها</a>
+      <a href="#">نمرات</a>
+      <a href="PicGallery.html">گالری تصاویر</a>
+    </div>
+
+    <button class="openbtn align-items-center justify-content-center" >&#9776;</button>
+  </div>
+
   <div class="collapse navbar-collapse navbar-div-menu">
     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
       <li class="nav-item navbar-li-menu-items">
-        <a class="nav-link border-bottom-1" href="#">صفحه اصلی</a>
+        <a class="nav-link border-bottom-1" href="index.html">صفحه اصلی</a>
       </li>
       <li class="nav-item navbar-li-menu-items">
         <a class="nav-link" href="Courses.html">ترم های آموزشی</a>
@@ -37,7 +51,7 @@ crossorigin="anonymous"
         <a class="nav-link" href="#">نمرات</a>
       </li>
       <li class="nav-item navbar-li-menu-items">
-        <a class="nav-link" href="#PicGallery.html">گالری تصاویر</a>
+        <a class="nav-link" href="PicGallery.html">گالری تصاویر</a>
       </li>
     </ul>
     <div class="d-grid gap-2">
@@ -63,6 +77,21 @@ class Header extends HTMLElement {
     super()
     this.attachShadow({ mode: "open" })
     this.shadowRoot.appendChild(template.content.cloneNode(true))
+  }
+  connectedCallback() {
+    /* Set the width of the sidebar to 250px (show it) */
+    const openNav = this.shadowRoot.querySelector(".openbtn");
+    const closeNav = this.shadowRoot.querySelector(".closebtn");
+
+    openNav.addEventListener("click", () => {
+      this.shadowRoot.getElementById("mySidepanel").style.width = "250px";
+    })
+    closeNav.addEventListener("click", () => {
+      this.shadowRoot.getElementById("mySidepanel").style.width = "0";
+    })
+
+    /* Set the width of the sidebar to 0 (hide it) */
+
   }
 }
 

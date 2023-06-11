@@ -16,14 +16,7 @@ body {
 .course-info {
   font-size: 1.6rem;
 }
-/* navbar */
 
-/* navbar */
-
-/* main */
-
-/* main */
-
-/* Footer */
-
-/* Footer */
+.menu-nav-mobile {
+  display: none;
+}

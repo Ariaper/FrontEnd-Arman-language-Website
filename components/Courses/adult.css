@@ -15,6 +15,11 @@
   font-size: 1.6rem;
 }
 
+.second-title-information {
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
 .p-information {
   display: inline-block;
   color: #3c3e34;

@@ -11,7 +11,7 @@ crossorigin="anonymous"
 <link rel="stylesheet" href="components/Classprogram/classProgram.css">
 <link rel="stylesheet" href="queries.css" />
 
-<div class="container mt-5 ">
+<div class="container mt-3">
   <div class=" row">
     <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
       <ol class="breadcrumb">
@@ -19,11 +19,11 @@ crossorigin="anonymous"
         <li class="breadcrumb-item active" aria-current="page">برنامه کلاسی</li>
       </ol>
     </nav>
-    <div class="justify-content-center align-items-center col-md-8">
-      <h4>
+    <div class="justify-content-center align-items-center col-md-8 pt-3">
+      <h4 class="classprogram-text">
         برنامه کلاسی Class program
       </h4>
-      <p>شروع ترم از شنبه 23 اردیبهشت</p>
+      <p class="class-date-text pb-2">شروع ترم از شنبه 23 اردیبهشت</p>
       <img src="images/ClassProgram/class1.jpg" alt="" class="rounded d-block w-100 pb-1 card-img-top img-fluid">
       <img src="images/ClassProgram/class2.jpg" alt="" class="rounded d-block w-100 card-img-top img-fluid">
     </div>

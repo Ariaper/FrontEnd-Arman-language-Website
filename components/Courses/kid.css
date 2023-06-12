@@ -1,0 +1,21 @@
+.course-title {
+  color: #309fe6;
+  font-weight: 700;
+}
+
+.course-information {
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #3c3e34;
+}
+
+.title-information {
+  display: inline-block;
+  font-weight: 600;
+  font-size: 1.6rem;
+}
+
+.p-information {
+  display: inline-block;
+  color: #3c3e34;
+}

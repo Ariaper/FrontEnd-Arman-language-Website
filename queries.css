@@ -70,7 +70,9 @@
   .home-container {
     height: 50vh;
   }
-
+  .kiddiv {
+    padding: 7rem 0;
+  }
   .close {
     top: 10%;
     right: 2%;

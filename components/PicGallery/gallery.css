@@ -94,13 +94,17 @@
   }
 }
 
+.closeimg-btn {
+  width: 5rem;
+  stroke: #000000;
+  background-color: #f0ffff;
+  border-radius: 50%;
+}
+
 .close {
   position: absolute;
   top: 50%;
   right: 10%;
-  color: #f1f1f1;
-  font-size: 4rem;
-  font-weight: bold;
   transition: 0.3s;
   z-index: 99;
 }

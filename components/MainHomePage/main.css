@@ -124,8 +124,9 @@
 }
 
 .col .card:hover a {
-  color: dodgerblue;
-  background-color: #eee;
+  /* color: dodgerblue; */
+  /* background-color: #eee; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border: 1px solid dodgerblue;
 
   font-weight: 700;

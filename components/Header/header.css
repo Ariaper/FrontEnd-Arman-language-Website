@@ -4,6 +4,13 @@
   margin-right: 1.6rem;
 }
 
+.menuimgdiv {
+  margin-bottom: 2rem;
+  border-top: 2px solid #fff;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
 .navbar-div-menu li a {
   font-size: 1.6rem;
 }
@@ -57,6 +64,7 @@
 .openbtn-svg {
   stroke: #0dcaf0;
   width: 40px;
+  background: #fff;
 }
 .openbtn {
   cursor: pointer;

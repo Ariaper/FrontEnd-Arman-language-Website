@@ -69,10 +69,12 @@
   height: 1.9rem;
 }
 .quote-text p {
-  font-size: 1.92rem;
-  /* test 3 */
+  font-size: 1.8rem;
 }
-
+.q-span {
+  font-size: 1.6rem;
+  font-weight: 600;
+}
 .text-information p {
   font-size: 1.6rem;
 }

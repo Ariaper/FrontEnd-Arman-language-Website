@@ -34,15 +34,7 @@
     <main class="main-card">
       <div class="login-card">
         <div class="front">
-          <!-- <ul class="header">
-            <li class="student">ورود دانش آموزان</li>
-            <li class="teachers">ورود اساتید</li>
-            <li class="admin-li">ورود مدیر</li>
-          </ul> -->
-
-          <img class="loginImg" src="" alt="" />
-
-          <form action="action_page.php" userPass method="post">
+          <form action="action_page.php" id="loginForm" method="post">
             <div class="form-container">
               <label class="form__label" for="uname"><b>نام کاربری:</b></label>
               <input
@@ -64,15 +56,16 @@
 
               <p class="textinfo">یکی مورد زیر را انتخاب کنید:</p>
               <label class="radio-inline ratiobtn firstratiobtn">
-                <input type="radio" name="optradio" checked /><span
-                  >دانش آموزان</span
-                >
+                <input type="radio" name="optradio" value="student" required />
+                <span>دانش آموزان</span>
               </label>
               <label class="radio-inline ratiobtn">
-                <input type="radio" name="optradio" /><span>اساتید</span>
+                <input type="radio" name="optradio" value="teacher" />
+                <span>اساتید</span>
               </label>
               <label class="radio-inline ratiobtn lastratiobtn">
-                <input type="radio" name="optradio" /><span>مدیر</span>
+                <input type="radio" name="optradio" value="manager" />
+                <span>مدیر</span>
               </label>
 
               <br />
